@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: rgba(184, 88, 197, 0.87);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,31 +25,37 @@ body {
 }
 
 h1 {
+  
   letter-spacing: 1px;
   margin: 0;
   text-align: center;
 }
 
 h2 {
+ 
   letter-spacing: 1px;
   margin: 0;
   text-align: center;
 }
 
 h3 {
-  border-bottom: 1px solid #bbb;
+
+  border-bottom: 1px solid rgb(255, 255, 255);
   padding-bottom: 10px;
   margin: 40px 0 10px;
   text-align: center;
 }
 
 h4 {
+
   margin: 0;
   text-transform: uppercase;
   text-align: center;
 }
 
 .inc-exp-container {
+  border-radius: 10px ;
+  border: 2px solid #9b1da7;
   background-color: #fff;
   box-shadow: var(--box-shadow);
   padding: 20px;
@@ -74,12 +80,12 @@ h4 {
 }
 
 .money.plus {
-  color: #b6960a;
+  color: lightskyblue;
   font-weight: bold;
 }
 
 .money.minus {
-  color: #2da3ad;
+  color: #ff0505;
   font-weight: bold;
 }
 
@@ -91,7 +97,8 @@ label {
 
 input[type='text'],
 input[type='number'] {
-  border: 1px solid #dedede;
+
+  border: 1px solid #9b1da7;
   border-radius: 5px;
   display: block;
   font-size: 16px;
@@ -101,10 +108,10 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: lightsteelblue;
+  background-color: lightskyblue;
   box-shadow: var(--box-shadow);
   color: #fff;
-  border: 0;
+  border-radius: 5px ;
   display: block;
   font-size: 16px;
   margin: 10px 0 30px;
@@ -136,29 +143,32 @@ input[type='number'] {
 }
 
 .list li.plus {
-  border-right: 5px solid #b6960a;
+  border-right: 5px solid lightskyblue;
+  border-radius: 5px ;
 }
 
 .list li.plus:hover {
-  border-right: 5px solid #b6960a;
-  background-color: #b6960a;
+  border-right: 5px solid ;
+  background-color: lightskyblue;
   color: #f7f7f7
 }
 
 .list li.minus {
-  border-right: 5px solid #2da3ad;
+  border-right: 5px solid #ff0505;
+  border-radius: 5px ;
 }
 
 .list li.minus:hover {
-  border-right: 5px solid #2da3ad;
-  background-color: #2da3ad;
+  border-right: 5px solid #ff0505;
+  background-color: #ff0505;
   color: #f7f7f7
 }
 
 
 .delete-btn {
+  border-radius: 5px ;
   cursor: pointer;
-  background-color: #8a6a66;
+  background-color: #c5bebc;
   border: 0;
   color: #fff;
   font-size: 20px;
